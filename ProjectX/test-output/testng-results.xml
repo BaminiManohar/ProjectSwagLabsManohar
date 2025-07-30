@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[browser set up done]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[browser terminate done]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-29T09:37:11 IST" name="RegressionSuite" finished-at="2025-07-29T09:37:50 IST" duration-ms="38305">
+    <groups>
+      <group name="RT">
+        <method signature="TeamXTest.Addproduct(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:productTest.TeamXTest@3a7442c7]" name="Addproduct" class="productTest.TeamXTest"/>
+      </group> <!-- RT -->
+    </groups>
+    <test started-at="2025-07-29T09:37:11 IST" name="RegressionTest" finished-at="2025-07-29T09:37:50 IST" duration-ms="38305">
+      <class name="productTest.TeamXTest">
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:productTest.TeamXTest@3a7442c7]" started-at="2025-07-29T09:37:11 IST" name="Browsersetup" finished-at="2025-07-29T09:37:32 IST" duration-ms="21153" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser set up done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Browsersetup -->
+        <test-method is-config="true" signature="login()[pri:0, instance:productTest.TeamXTest@3a7442c7]" started-at="2025-07-29T09:37:36 IST" name="login" finished-at="2025-07-29T09:37:41 IST" duration-ms="5216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Addproduct(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:productTest.TeamXTest@3a7442c7]" started-at="2025-07-29T09:37:41 IST" name="Addproduct" data-provider="checkOutInfo" finished-at="2025-07-29T09:37:48 IST" duration-ms="7601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bamini]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manohar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[502319]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addproduct -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:productTest.TeamXTest@3a7442c7]" started-at="2025-07-29T09:37:48 IST" name="logout" finished-at="2025-07-29T09:37:49 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="BrowserTerminate()[pri:0, instance:productTest.TeamXTest@3a7442c7]" started-at="2025-07-29T09:37:49 IST" name="BrowserTerminate" finished-at="2025-07-29T09:37:50 IST" duration-ms="757" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser terminate done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BrowserTerminate -->
+      </class> <!-- productTest.TeamXTest -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
