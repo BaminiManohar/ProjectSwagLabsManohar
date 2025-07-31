@@ -7,8 +7,10 @@
         <methods>
           <include name="logout"/>
           <include name="BrowserTerminate"/>
-          <include name="Addproduct"/>
+          <include name="Addproduct" invocation-numbers="0"/>
+          <include name="ReportTerminate"/>
           <include name="Browsersetup"/>
+          <include name="ReportSetUp"/>
           <include name="login"/>
         </methods>
       </class> <!-- productTest.TeamXTest -->

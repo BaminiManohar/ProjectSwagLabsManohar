@@ -4,6 +4,9 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+
 import genericLibrary.BaseConfig;
 import genericLibrary.WebDriverLibrary;
 import pageRepositary.CartPage;
@@ -17,6 +20,19 @@ public class TeamXTest extends BaseConfig {
 
 	@Test(groups = "RT", priority = 1, enabled = true, invocationCount = 1, dataProvider = "checkOutInfo")
 	public void Addproduct(String FirstName, String LastName, String PostalCode) throws InterruptedException {
+		
+		
+		
+		//create the test Information
+	    test = report.createTest("Verify order product");
+		
+		//steps information
+		test.log(Status.INFO, "step1: Launching the browser Successfully");
+		
+		test.log(Status.INFO, "step2: Navigating to the application via Url succesfully");
+		
+		test.log(Status.INFO, "step3: Verified the WebPage Successfully");
+	
 
 		// wait method
 		WebDriverLibrary.waitStatment();

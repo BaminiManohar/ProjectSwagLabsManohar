@@ -5,32 +5,45 @@
       <![CDATA[browser set up done]]>
     </line>
     <line>
+      <![CDATA[clicked on the element]]>
+    </line>
+    <line>
+      <![CDATA[clicked on the add to cart Button]]>
+    </line>
+    <line>
+      <![CDATA[clicked on back to products button]]>
+    </line>
+    <line>
       <![CDATA[logout]]>
     </line>
     <line>
       <![CDATA[browser terminate done]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-07-29T09:37:11 IST" name="RegressionSuite" finished-at="2025-07-29T09:37:50 IST" duration-ms="38305">
+  <suite started-at="2025-07-31T10:49:30 IST" name="Default suite" finished-at="2025-07-31T10:50:04 IST" duration-ms="33304">
     <groups>
       <group name="RT">
-        <method signature="TeamXTest.Addproduct(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:productTest.TeamXTest@3a7442c7]" name="Addproduct" class="productTest.TeamXTest"/>
+        <method signature="TeamXTest.Addproduct(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:productTest.TeamXTest@4be29ed9]" name="Addproduct" class="productTest.TeamXTest"/>
       </group> <!-- RT -->
     </groups>
-    <test started-at="2025-07-29T09:37:11 IST" name="RegressionTest" finished-at="2025-07-29T09:37:50 IST" duration-ms="38305">
+    <test started-at="2025-07-31T10:49:30 IST" name="Default test" finished-at="2025-07-31T10:50:04 IST" duration-ms="33304">
       <class name="productTest.TeamXTest">
-        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:productTest.TeamXTest@3a7442c7]" started-at="2025-07-29T09:37:11 IST" name="Browsersetup" finished-at="2025-07-29T09:37:32 IST" duration-ms="21153" status="PASS">
+        <test-method is-config="true" signature="ReportSetUp()[pri:0, instance:productTest.TeamXTest@4be29ed9]" started-at="2025-07-31T10:49:30 IST" name="ReportSetUp" finished-at="2025-07-31T10:49:31 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetUp -->
+        <test-method is-config="true" signature="Browsersetup()[pri:0, instance:productTest.TeamXTest@4be29ed9]" started-at="2025-07-31T10:49:31 IST" name="Browsersetup" finished-at="2025-07-31T10:49:50 IST" duration-ms="19396" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser set up done]]>
             </line>
           </reporter-output>
         </test-method> <!-- Browsersetup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:productTest.TeamXTest@3a7442c7]" started-at="2025-07-29T09:37:36 IST" name="login" finished-at="2025-07-29T09:37:41 IST" duration-ms="5216" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:productTest.TeamXTest@4be29ed9]" started-at="2025-07-31T10:49:51 IST" name="login" finished-at="2025-07-31T10:49:55 IST" duration-ms="4342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="Addproduct(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:productTest.TeamXTest@3a7442c7]" started-at="2025-07-29T09:37:41 IST" name="Addproduct" data-provider="checkOutInfo" finished-at="2025-07-29T09:37:48 IST" duration-ms="7601" status="PASS">
+        <test-method signature="Addproduct(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:productTest.TeamXTest@4be29ed9]" started-at="2025-07-31T10:49:55 IST" name="Addproduct" data-provider="checkOutInfo" finished-at="2025-07-31T10:50:03 IST" duration-ms="7458" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,23 +62,36 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[clicked on the element]]>
+            </line>
+            <line>
+              <![CDATA[clicked on the add to cart Button]]>
+            </line>
+            <line>
+              <![CDATA[clicked on back to products button]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Addproduct -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:productTest.TeamXTest@3a7442c7]" started-at="2025-07-29T09:37:48 IST" name="logout" finished-at="2025-07-29T09:37:49 IST" duration-ms="386" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:productTest.TeamXTest@4be29ed9]" started-at="2025-07-31T10:50:03 IST" name="logout" finished-at="2025-07-31T10:50:03 IST" duration-ms="295" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="BrowserTerminate()[pri:0, instance:productTest.TeamXTest@3a7442c7]" started-at="2025-07-29T09:37:49 IST" name="BrowserTerminate" finished-at="2025-07-29T09:37:50 IST" duration-ms="757" status="PASS">
+        <test-method is-config="true" signature="BrowserTerminate()[pri:0, instance:productTest.TeamXTest@4be29ed9]" started-at="2025-07-31T10:50:03 IST" name="BrowserTerminate" finished-at="2025-07-31T10:50:03 IST" duration-ms="217" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser terminate done]]>
             </line>
           </reporter-output>
         </test-method> <!-- BrowserTerminate -->
+        <test-method is-config="true" signature="ReportTerminate()[pri:0, instance:productTest.TeamXTest@4be29ed9]" started-at="2025-07-31T10:50:03 IST" name="ReportTerminate" finished-at="2025-07-31T10:50:04 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportTerminate -->
       </class> <!-- productTest.TeamXTest -->
-    </test> <!-- RegressionTest -->
-  </suite> <!-- RegressionSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
